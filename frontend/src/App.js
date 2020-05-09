@@ -4,7 +4,7 @@ import firebase from './services/firebase'
 import {EnderecoInput} from './pages/EnderecoInput'
 
 
-function App() {
+const App = () => {
   const [enderecos, setEnderecos] = useState([])
   const [newEndereco, setNewEndereco] = useState()
 
